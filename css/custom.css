@@ -1,0 +1,52 @@
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+    background-color: #0273A3;
+    border-color: #337ab7;
+}
+.dropdown-menu > li > a {
+    display: block;
+    padding: 8px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
+.dropdown-menu > li > a:hover {
+	background-color: #0273A3;
+	color: white
+}
+.navbar-brand {
+	height: 0 !important;
+	padding: 0;
+}
+.navbar-brand img {
+	width: 45% !important;
+	height: 100% !important;
+}
+@media screen and (max-width: 640px) {
+    .navbar-brand img {
+        width: 27% !important;
+    }
+    .navbar-brand h1 {
+	    margin-top: -40px;
+	    margin-left: 8px;
+	}
+}
+@media screen and (max-width: 480px) {
+    .navbar-brand img {
+        width: 50%;
+    }
+    .navbar-brand h1 {
+	    margin-top: -40px;
+	    margin-left: 8px;
+	}
+}
+@media screen and (max-width: 320px) {
+    .navbar-brand img {
+        width: 60%;
+    }
+    .navbar-brand h1 {
+	    margin-top: -40px;
+	    margin-left: 8px;
+	}
+}
